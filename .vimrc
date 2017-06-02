@@ -10,6 +10,7 @@ syntax enable         "enable syntax processing
 filetype indent on    "load filetype-specific indent files
 set number            " line numbers
 set showmatch         "highlight matching [{()}]
+set showcmd           "show command in bottom bar
 
 " provides nice visuals
 colorscheme molokai
