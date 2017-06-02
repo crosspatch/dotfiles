@@ -8,7 +8,7 @@ syntax enable         "enable syntax processing
 filetype plugin on
 
 "provides line numbers
-"set number
+set number
 
 set smartindent
 set tabstop=4
