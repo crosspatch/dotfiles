@@ -5,10 +5,11 @@ set nocompatible
 
 " enable syntax and plugins
 syntax enable         "enable syntax processing
-filetype plugin on
 
-" provides line numbers
-set number
+"UI config
+filetype indent on    "load filetype-specific indent files
+set number            " line numbers
+set showmatch         "highlight matching [{()}]
 
 " provides nice visuals
 colorscheme molokai
